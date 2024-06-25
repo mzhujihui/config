@@ -1,0 +1,10 @@
+# GitLab.com
+Host gitlab.yigeos.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/gitlab
+
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/github
