@@ -20,6 +20,10 @@ plugins=(
   fast-syntax-highlighting
 )
 
+# brew install starship
+# Rust prompt tool
+eval "$(starship init zsh)"
+
 # https://ohmyz.sh/
 source $ZSH/oh-my-zsh.sh
 
